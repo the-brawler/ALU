@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module multiplication(A,B,Output);
 
 input [31:0] A;
