@@ -2,7 +2,7 @@
 
 Operator Codes
 
-ADDITION       = 0000
+ADDITION       = 0000 /n
 SUBTRACTION    = 0001
 DIVISION       = 0010
 MULTIPLICATION = 0011
