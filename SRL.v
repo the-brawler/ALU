@@ -1,10 +1,10 @@
 module SRL(A,n, Output);
 input[31:0]A;
-input n;
+input [5:0]n;
 
 output reg[31:0]Output;
 
-always@(A)
+always@(*)
          Output = A >> n;
 endmodule
 

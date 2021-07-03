@@ -87,7 +87,7 @@ output[7:0] adduct;
 wire [7:0] r;
 wire [7:0] sum1;
 wire[7:0] carr;
-reg [8:0] c1;
+wire [8:0] c1;
 
 halfadder f0(.a(expA[0]),.b(expB[0]),.sum(sum1[0]),.Cout(carr[0]));
 fulladder f1(.a(expA[1]),.b(expB[1]),.Cin(carr[0]),.sum(sum1[1]),.Cout(carr[1]));
